@@ -14,11 +14,11 @@ An initial analysis of the dependent variable 'label' shows that this data consi
 Figure 1. Histogram of counts per label for the training dataset.
 
 
-IV. Models
+III. Models
 
 The first model to be tested was a random forest after the training set was split between pixel variables and the dependent variable 'label'. The Random forest classifier took 31.94 seconds to fit the data and after predicting the test dataset, it was 96.546 correct in predicting the number labels of the dataset. After the initial random forest classifier model was created, a principal component analysis was completed to determine which pixels would be used in the component model. After applying the pca, the random forest model given those components performed at 94.35 percent accuracy on predicting the test dataset labels. Finally, a k-means model was used to predict the test dataset which performed worse than either random forest with accuracy of 89.83%.
 
 
-VII. Conclusions
+IV. Conclusions
 
 After testing several models, the original random forest model performed the best on the testing data. All pixels were included in this model and it performed with 96.546% accuracy. The model can be improved by parameter testing and improving the principal component analysis to get a more accurate set of components to fit on the model. 
